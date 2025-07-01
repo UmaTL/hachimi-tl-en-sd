@@ -1,0 +1,60 @@
+name: Update data
+
+on:
+  push:
+    branches: 'main'
+    paths:
+      - 'localized_data/**'
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: release
+          fetch-depth: 0
+
+      - uses: actions/checkout@v4
+        with:
+          repository: UmaTL/hachimi-tl-en
+          ref: main
+          fetch-depth: 0
+          path: base_tl
+
+      - uses: actions/setup-python@v5
+        with:
+            python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          curl -O https://raw.githubusercontent.com/Hachimi-Hachimi/tl-en/refs/heads/dev/gen_index.py
+          curl -O https://raw.githubusercontent.com/Hachimi-Hachimi/tl-en/refs/heads/dev/requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Merge changes
+        run: |
+          echo "Merging tl"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -rf localized_data
+          mv -f base_tl/localized_data .
+
+          echo "Merging skill data"
+          curl -o skill_data_dict.json https://raw.githubusercontent.com/UmaTL/hachimi-sd/refs/heads/main/localized_data/text_data_dict.json
+          python merge_skill_data.py
+          git add --all
+          git commit -m "Merge changes"
+
+      - name: Create index
+        run: python gen_index.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update data
+          branch: release
+          file_pattern: 'localized_data/* index.json'
