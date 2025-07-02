@@ -47,14 +47,18 @@ jobs:
           echo "Merging skill data"
           curl -o skill_data_dict.json https://raw.githubusercontent.com/UmaTL/hachimi-sd/refs/heads/main/localized_data/text_data_dict.json
           python merge_skill_data.py
-          git add --all
-          git commit -m "Merge changes"
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Merge changes
+          branch: release
+          file_pattern: 'localized_data/*'
 
       - name: Create index
         run: python gen_index.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update data
+          commit_message: Update index
           branch: release
           file_pattern: 'localized_data/* index.json'
