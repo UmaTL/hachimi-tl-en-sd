@@ -10500,8 +10500,8 @@
     },
     {
       "path": "character_system_text_dict.json",
-      "hash": "27f6b7a796563be67de254d998bcb544086f002ff5b03561c26302bd5c4eb579",
-      "size": 218262
+      "hash": "7b41f6fa843cf9386d857522624afdd91758ec3413044e7154f245192a579cc7",
+      "size": 218790
     },
     {
       "path": "config.json",
@@ -10510,8 +10510,8 @@
     },
     {
       "path": "hashed_dict.json",
-      "hash": "41b703643a61b475c63c0cbd615444e68956d634a855c83160d980635436dc89",
-      "size": 7479
+      "hash": "0f3200f3d5ff2d15dfa8f8f62d4867659815d231f4dee78154ff50996d02ea3a",
+      "size": 8380
     },
     {
       "path": "includes",
@@ -10520,8 +10520,8 @@
     },
     {
       "path": "localize_dict.json",
-      "hash": "510fc7b504cbbf5a06c148fd9f401bd1aa9ac27f3725cfbebca4e1e09894d8a1",
-      "size": 247602
+      "hash": "000a595abb97b43c81f7b2ba6c923daa3b95bf1bff6d1ed6d8d2cd4205de7c5f",
+      "size": 260380
     },
     {
       "path": "race_jikkyo_comment_dict.json",
@@ -10535,8 +10535,8 @@
     },
     {
       "path": "text_data_dict.json",
-      "hash": "ee4a88e3a71cc293cde05b30cd79031aa7a9a7dd220008e5ba138d931d7816aa",
-      "size": 2682249
+      "hash": "30a7191d3e7d6672d8a72463c6c75b0e06875ee029304506a94bef8a9815a4f4",
+      "size": 2696401
     }
   ]
 }
