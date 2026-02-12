@@ -11570,8 +11570,8 @@
     },
     {
       "path": "hashed_dict.json",
-      "hash": "f5e3498b9f5ab622f2a64615ab0ce1cbbcfcccbcc9b149a9323f6e67989a351e",
-      "size": 10973
+      "hash": "28a3162aef2fff4f674ea744025e8e17cabf42e880e95ef79cedfac572e9968a",
+      "size": 11609
     },
     {
       "path": "includes_android",
@@ -11600,8 +11600,8 @@
     },
     {
       "path": "text_data_dict.json",
-      "hash": "2c3bd3c5c5ce876faa06cc78bd26317007ef4d6a2d783a622e189cd06724326a",
-      "size": 2862670
+      "hash": "943067cc5a4d61c7fb368866e6a4fa04684265ed8d9723a28da3a2eb2325ef0e",
+      "size": 2871234
     }
   ]
 }
