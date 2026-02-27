@@ -50,8 +50,8 @@
     },
     {
       "path": "assets/an_texture_sets/as_uMeshParam_fl_footer_btn00/tx_uTex_fl_footer_btn00_0.diff.png",
-      "hash": "6150ca8754e70c6bf3ed5261cc8db24969b1ce78e41528c1a0a7a8b9c3aea738",
-      "size": 62041
+      "hash": "9213040343752229efa9717436b006da4af1188cf83ca710c9c7e0668ead2522",
+      "size": 49912
     },
     {
       "path": "assets/an_texture_sets/as_uMeshParam_fl_footer_landscape_btn00/tx_uTex_fl_footer_landscape_btn00_0.diff.png",
@@ -11109,6 +11109,11 @@
       "size": 166
     },
     {
+      "path": "assets/uianimation/flash/singlemode/breeders/pf_fl_singlemode_breeders_header_turncounter00.json",
+      "hash": "90a236b86924a2b1b326a7a6d0a8c0590d9653bea6d09d8c8338dd34e8214f5b",
+      "size": 861
+    },
+    {
       "path": "assets/uianimation/flash/singlemode/cook/pf_fl_singlemode_cook_badge_garden_reinforcement00.json",
       "hash": "b411e2d376fe9f39cb77182bb58c4f3daffebe0b52ed2af5c15a8ca9dce59d9f",
       "size": 166
@@ -11575,8 +11580,8 @@
     },
     {
       "path": "hashed_dict.json",
-      "hash": "22fdf0d2ec94bc1b0255e0650c1b668fff4211b1c149112fa3c762b842e7e03f",
-      "size": 11755
+      "hash": "93866f0b7dcec8eb6593e5a13c384ae2a20484a4b907e792176e8eff88655959",
+      "size": 12036
     },
     {
       "path": "includes_android",
@@ -11590,8 +11595,8 @@
     },
     {
       "path": "localize_dict.json",
-      "hash": "72b632d660e35b30187d1c6004833f0fc83279bd419d0fb4936f6b2da24a975a",
-      "size": 293602
+      "hash": "b719876cd6d1c398fb417880a8c99dbccbbda5d4bc6059fcfbaf781186acba77",
+      "size": 306047
     },
     {
       "path": "race_jikkyo_comment_dict.json",
@@ -11605,8 +11610,8 @@
     },
     {
       "path": "text_data_dict.json",
-      "hash": "0b4dcdda9f3eac35383e27969937728e386bab462459949c54958a9e3cfeb137",
-      "size": 2868218
+      "hash": "3b3c7d55718ca4ab009d0e29f9c0dd8e8e456f018a7289e21c96cdd019ee43d8",
+      "size": 2937111
     }
   ]
 }
