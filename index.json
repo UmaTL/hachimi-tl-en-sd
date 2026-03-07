@@ -780,8 +780,8 @@
     },
     {
       "path": "assets/atlas/home/home.diff.png",
-      "hash": "166fede753c98ca4227229c61135e044f33f1caec06619e1da27dd0b231aa158",
-      "size": 105738
+      "hash": "0c2c2b2c9ce93f4ea63a435b0f9fdfb0426b35cd724df19417681fadded19b6f",
+      "size": 114160
     },
     {
       "path": "assets/atlas/home/home.json",
@@ -11595,8 +11595,8 @@
     },
     {
       "path": "localize_dict.json",
-      "hash": "b719876cd6d1c398fb417880a8c99dbccbbda5d4bc6059fcfbaf781186acba77",
-      "size": 306047
+      "hash": "22184d060a9703eb8734bfbf066541a2b3c163bd3515e2d6bbe455876f6974d0",
+      "size": 308698
     },
     {
       "path": "race_jikkyo_comment_dict.json",
@@ -11610,8 +11610,8 @@
     },
     {
       "path": "text_data_dict.json",
-      "hash": "3b3c7d55718ca4ab009d0e29f9c0dd8e8e456f018a7289e21c96cdd019ee43d8",
-      "size": 2937111
+      "hash": "2ff188e257cd3914dd776418013d40f1d1242f4332474e13b9cd61d9101d80fb",
+      "size": 2938643
     }
   ]
 }
