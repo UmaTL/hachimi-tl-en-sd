@@ -795,8 +795,8 @@
     },
     {
       "path": "assets/atlas/home/home.diff.png",
-      "hash": "af5491f5af0b7f759b42e077e9941117b80b76d1fd148ff89a16b4e7164f2f78",
-      "size": 112280
+      "hash": "9c7c5b87331ce6de3031f2569597d09bf9e33306af115b1790cf251c2f8762ba",
+      "size": 113170
     },
     {
       "path": "assets/atlas/home/home.json",
@@ -10439,6 +10439,26 @@
       "size": 61359
     },
     {
+      "path": "assets/textures/home/ui/texture/utx_btn_home_race_aggregate_01.diff.png",
+      "hash": "808cd72aeccfd45d8c7d7a0861abff9ca764d99cca0723c2316af9eb527baa68",
+      "size": 18310
+    },
+    {
+      "path": "assets/textures/home/ui/texture/utx_btn_home_race_down_01.diff.png",
+      "hash": "d53dd0a21b4dfe19f2505c0e540168c01213253e0efd9c819ff4950b717965f9",
+      "size": 27847
+    },
+    {
+      "path": "assets/textures/home/ui/texture/utx_btn_home_race_keep_01.diff.png",
+      "hash": "f70eb2ef490db86a03f9157a9f5bf7878aa0da8f473cd90bc10ad768fda3e164",
+      "size": 27241
+    },
+    {
+      "path": "assets/textures/home/ui/texture/utx_btn_home_race_up_01.diff.png",
+      "hash": "bf6ee8bddfe57f1b65199b201af85eed34dc33cbfbefd2f722d9da22247fc79f",
+      "size": 28065
+    },
+    {
       "path": "assets/textures/outgame/campaign/walking/utx_txt_campaign_stroll_03.png",
       "hash": "bd258681658b3c2917fa7f3eafb7b45018fc14b832a49c3d6d8d5e3468cfb6aa",
       "size": 15844
@@ -16225,8 +16245,8 @@
     },
     {
       "path": "character_system_text_dict.json",
-      "hash": "2743121f6fb3cb5c218d360eb23b97872584673fc2859c7fabc9cc2f8cbb30d1",
-      "size": 256836
+      "hash": "a1b39dc6134d8adeb40380bdd008edad3e297c5d42c5bccf502b2fe133174cdb",
+      "size": 995711
     },
     {
       "path": "config.json",
@@ -16250,8 +16270,8 @@
     },
     {
       "path": "localize_dict.json",
-      "hash": "3e0e9d79b0a327f291015c97340cfdd91670c3cdd9b4e05e6ac2b988aac55cc2",
-      "size": 403103
+      "hash": "762a3e190b679e082c3019494a0b4e83c4ca3d434bfcdbdb12b4d4761df9ae08",
+      "size": 403788
     },
     {
       "path": "race_jikkyo_comment_dict.json",
@@ -16265,8 +16285,8 @@
     },
     {
       "path": "text_data_dict.json",
-      "hash": "7ed7439540f830f7bef6f0f9fb3d8adffff14d010e7069a1e6825bed0ac2f437",
-      "size": 3112463
+      "hash": "423becbd6eba3af15d877b7b2a9c627410b935d78b81362593aef070ac1a5828",
+      "size": 3119274
     }
   ]
 }
